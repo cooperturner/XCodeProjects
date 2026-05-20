@@ -1,0 +1,658 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		5206F8D02FB5C59C00C354A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5206F8B82FB5C59B00C354A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5206F8BF2FB5C59B00C354A1;
+			remoteInfo = FitTrack;
+		};
+		5206F8DA2FB5C59C00C354A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5206F8B82FB5C59B00C354A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5206F8BF2FB5C59B00C354A1;
+			remoteInfo = FitTrack;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5206F8C02FB5C59B00C354A1 /* FitTrack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitTrack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5206F8CF2FB5C59C00C354A1 /* FitTrackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitTrackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5206F8D92FB5C59C00C354A1 /* FitTrackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitTrackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		5206F9912FB5C68A00C354A1 /* Exceptions for "FitTrack" folder in "FitTrackTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Components/FitComponents.swift,
+				Models/ClaudeModels.swift,
+				Models/ExercisePlanRecord.swift,
+				Models/FoodLog.swift,
+				Models/MealPlanRecord.swift,
+				Models/PlanModels.swift,
+				Models/User.swift,
+				Models/WeightEntry.swift,
+				Repositories/FoodLogRepository.swift,
+				Repositories/PlanRepository.swift,
+				Repositories/UserRepository.swift,
+				Repositories/WeightRepository.swift,
+				Services/ClaudeService.swift,
+				Services/SessionManager.swift,
+				Theme/AppColors.swift,
+				ViewModels/AuthViewModel.swift,
+				ViewModels/PlanViewModel.swift,
+				ViewModels/ProfileViewModel.swift,
+				ViewModels/ProgressViewModel.swift,
+				ViewModels/TrackerViewModel.swift,
+				Views/Auth/LoginView.swift,
+				Views/Auth/RegisterView.swift,
+				Views/Main/ExercisePlanView.swift,
+				Views/Main/HomeView.swift,
+				Views/Main/MainTabView.swift,
+				Views/Main/MealPlanView.swift,
+				Views/Main/ProgressView.swift,
+				Views/Main/SettingsView.swift,
+				Views/Main/SetupView.swift,
+				Views/Main/TrackerView.swift,
+			);
+			target = 5206F8CE2FB5C59C00C354A1 /* FitTrackTests */;
+		};
+		5206F9922FB5C68A00C354A1 /* Exceptions for "FitTrack" folder in "FitTrackUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Components/FitComponents.swift,
+				Models/ClaudeModels.swift,
+				Models/ExercisePlanRecord.swift,
+				Models/FoodLog.swift,
+				Models/MealPlanRecord.swift,
+				Models/PlanModels.swift,
+				Models/User.swift,
+				Models/WeightEntry.swift,
+				Repositories/FoodLogRepository.swift,
+				Repositories/PlanRepository.swift,
+				Repositories/UserRepository.swift,
+				Repositories/WeightRepository.swift,
+				Services/ClaudeService.swift,
+				Services/SessionManager.swift,
+				Theme/AppColors.swift,
+				ViewModels/AuthViewModel.swift,
+				ViewModels/PlanViewModel.swift,
+				ViewModels/ProfileViewModel.swift,
+				ViewModels/ProgressViewModel.swift,
+				ViewModels/TrackerViewModel.swift,
+				Views/Auth/LoginView.swift,
+				Views/Auth/RegisterView.swift,
+				Views/Main/ExercisePlanView.swift,
+				Views/Main/HomeView.swift,
+				Views/Main/MainTabView.swift,
+				Views/Main/MealPlanView.swift,
+				Views/Main/ProgressView.swift,
+				Views/Main/SettingsView.swift,
+				Views/Main/SetupView.swift,
+				Views/Main/TrackerView.swift,
+			);
+			target = 5206F8D82FB5C59C00C354A1 /* FitTrackUITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		5206F8C22FB5C59B00C354A1 /* FitTrack */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				5206F9912FB5C68A00C354A1 /* Exceptions for "FitTrack" folder in "FitTrackTests" target */,
+				5206F9922FB5C68A00C354A1 /* Exceptions for "FitTrack" folder in "FitTrackUITests" target */,
+			);
+			path = FitTrack;
+			sourceTree = "<group>";
+		};
+		5206F8D22FB5C59C00C354A1 /* FitTrackTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FitTrackTests;
+			sourceTree = "<group>";
+		};
+		5206F8DC2FB5C59C00C354A1 /* FitTrackUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FitTrackUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5206F8BD2FB5C59B00C354A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5206F8CC2FB5C59C00C354A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5206F8D62FB5C59C00C354A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5206F8B72FB5C59B00C354A1 = {
+			isa = PBXGroup;
+			children = (
+				5206F8C22FB5C59B00C354A1 /* FitTrack */,
+				5206F8D22FB5C59C00C354A1 /* FitTrackTests */,
+				5206F8DC2FB5C59C00C354A1 /* FitTrackUITests */,
+				5206F8C12FB5C59B00C354A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5206F8C12FB5C59B00C354A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5206F8C02FB5C59B00C354A1 /* FitTrack.app */,
+				5206F8CF2FB5C59C00C354A1 /* FitTrackTests.xctest */,
+				5206F8D92FB5C59C00C354A1 /* FitTrackUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5206F8BF2FB5C59B00C354A1 /* FitTrack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5206F8E32FB5C59C00C354A1 /* Build configuration list for PBXNativeTarget "FitTrack" */;
+			buildPhases = (
+				5206F8BC2FB5C59B00C354A1 /* Sources */,
+				5206F8BD2FB5C59B00C354A1 /* Frameworks */,
+				5206F8BE2FB5C59B00C354A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				5206F8C22FB5C59B00C354A1 /* FitTrack */,
+			);
+			name = FitTrack;
+			packageProductDependencies = (
+			);
+			productName = FitTrack;
+			productReference = 5206F8C02FB5C59B00C354A1 /* FitTrack.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5206F8CE2FB5C59C00C354A1 /* FitTrackTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5206F8E62FB5C59C00C354A1 /* Build configuration list for PBXNativeTarget "FitTrackTests" */;
+			buildPhases = (
+				5206F8CB2FB5C59C00C354A1 /* Sources */,
+				5206F8CC2FB5C59C00C354A1 /* Frameworks */,
+				5206F8CD2FB5C59C00C354A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5206F8D12FB5C59C00C354A1 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				5206F8D22FB5C59C00C354A1 /* FitTrackTests */,
+			);
+			name = FitTrackTests;
+			packageProductDependencies = (
+			);
+			productName = FitTrackTests;
+			productReference = 5206F8CF2FB5C59C00C354A1 /* FitTrackTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5206F8D82FB5C59C00C354A1 /* FitTrackUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5206F8E92FB5C59C00C354A1 /* Build configuration list for PBXNativeTarget "FitTrackUITests" */;
+			buildPhases = (
+				5206F8D52FB5C59C00C354A1 /* Sources */,
+				5206F8D62FB5C59C00C354A1 /* Frameworks */,
+				5206F8D72FB5C59C00C354A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5206F8DB2FB5C59C00C354A1 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				5206F8DC2FB5C59C00C354A1 /* FitTrackUITests */,
+			);
+			name = FitTrackUITests;
+			packageProductDependencies = (
+			);
+			productName = FitTrackUITests;
+			productReference = 5206F8D92FB5C59C00C354A1 /* FitTrackUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5206F8B82FB5C59B00C354A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2650;
+				LastUpgradeCheck = 2650;
+				TargetAttributes = {
+					5206F8BF2FB5C59B00C354A1 = {
+						CreatedOnToolsVersion = 26.5;
+					};
+					5206F8CE2FB5C59C00C354A1 = {
+						CreatedOnToolsVersion = 26.5;
+						TestTargetID = 5206F8BF2FB5C59B00C354A1;
+					};
+					5206F8D82FB5C59C00C354A1 = {
+						CreatedOnToolsVersion = 26.5;
+						TestTargetID = 5206F8BF2FB5C59B00C354A1;
+					};
+				};
+			};
+			buildConfigurationList = 5206F8BB2FB5C59B00C354A1 /* Build configuration list for PBXProject "FitTrack" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5206F8B72FB5C59B00C354A1;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 5206F8C12FB5C59B00C354A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5206F8BF2FB5C59B00C354A1 /* FitTrack */,
+				5206F8CE2FB5C59C00C354A1 /* FitTrackTests */,
+				5206F8D82FB5C59C00C354A1 /* FitTrackUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5206F8BE2FB5C59B00C354A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5206F8CD2FB5C59C00C354A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5206F8D72FB5C59C00C354A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5206F8BC2FB5C59B00C354A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5206F8CB2FB5C59C00C354A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5206F8D52FB5C59C00C354A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5206F8D12FB5C59C00C354A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5206F8BF2FB5C59B00C354A1 /* FitTrack */;
+			targetProxy = 5206F8D02FB5C59C00C354A1 /* PBXContainerItemProxy */;
+		};
+		5206F8DB2FB5C59C00C354A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5206F8BF2FB5C59B00C354A1 /* FitTrack */;
+			targetProxy = 5206F8DA2FB5C59C00C354A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5206F8E12FB5C59C00C354A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5206F8E22FB5C59C00C354A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5206F8E42FB5C59C00C354A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LX842853MT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = FitTrack;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = PersonalProject.FitTrack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5206F8E52FB5C59C00C354A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LX842853MT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = FitTrack;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = PersonalProject.FitTrack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5206F8E72FB5C59C00C354A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = PersonalProjects.FitTrackTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FitTrack.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FitTrack";
+			};
+			name = Debug;
+		};
+		5206F8E82FB5C59C00C354A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = PersonalProjects.FitTrackTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FitTrack.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FitTrack";
+			};
+			name = Release;
+		};
+		5206F8EA2FB5C59C00C354A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = PersonalProjects.FitTrackUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FitTrack;
+			};
+			name = Debug;
+		};
+		5206F8EB2FB5C59C00C354A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = PersonalProjects.FitTrackUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FitTrack;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5206F8BB2FB5C59B00C354A1 /* Build configuration list for PBXProject "FitTrack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5206F8E12FB5C59C00C354A1 /* Debug */,
+				5206F8E22FB5C59C00C354A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5206F8E32FB5C59C00C354A1 /* Build configuration list for PBXNativeTarget "FitTrack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5206F8E42FB5C59C00C354A1 /* Debug */,
+				5206F8E52FB5C59C00C354A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5206F8E62FB5C59C00C354A1 /* Build configuration list for PBXNativeTarget "FitTrackTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5206F8E72FB5C59C00C354A1 /* Debug */,
+				5206F8E82FB5C59C00C354A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5206F8E92FB5C59C00C354A1 /* Build configuration list for PBXNativeTarget "FitTrackUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5206F8EA2FB5C59C00C354A1 /* Debug */,
+				5206F8EB2FB5C59C00C354A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5206F8B82FB5C59B00C354A1 /* Project object */;
+}

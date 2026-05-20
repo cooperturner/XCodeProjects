@@ -1,0 +1,20 @@
+# Xcode
+*.xcuserstate
+*.xccheckout
+*.moved-aside
+*.orig
+xcuserdata/
+
+# Build output
+build/
+DerivedData/
+*.o
+*.d
+
+# Packages
+.build/
+Packages/
+*.resolved
+
+# macOS
+.DS_Store
